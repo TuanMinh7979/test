@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fdemy
+    username: root
+    password: 1111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true  # Optional, for debugging
+    properties:
+      hibernate:
+        format_sql: true  # Optional, for debugging
